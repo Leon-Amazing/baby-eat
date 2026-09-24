@@ -1,0 +1,5 @@
+unpackage/
+.DS_Store
+.hbuilderx/
+server/data.json
+server/data.json.tmp

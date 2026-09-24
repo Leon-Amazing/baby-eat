@@ -1,0 +1,9 @@
+{
+  "name": "baby-eat",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "api": "node server/index.js",
+    "sync:cloud": "powershell -ExecutionPolicy Bypass -File scripts/sync-cloudfunctions.ps1"
+  }
+}

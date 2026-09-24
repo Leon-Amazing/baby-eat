@@ -1,0 +1,75 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "宝宝今天吃什么"
+			}
+		},
+		{
+			"path": "pages/recipes/recipes",
+			"style": {
+				"navigationBarTitleText": "食谱推荐"
+			}
+		},
+		{
+			"path": "pages/menu/menu",
+			"style": {
+				"navigationBarTitleText": "个人菜单"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/recipe-detail/recipe-detail",
+			"style": {
+				"navigationBarTitleText": "食谱详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "宝宝今天吃什么",
+		"navigationBarBackgroundColor": "#FDFBF7",
+		"backgroundColor": "#FDFBF7",
+		"backgroundColorTop": "#FDFBF7",
+		"backgroundColorBottom": "#FDFBF7"
+	},
+	"tabBar": {
+		"color": "#2D2D2D",
+		"selectedColor": "#FF4D4D",
+		"backgroundColor": "#FDFBF7",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "推荐",
+				"iconPath": "static/tabbar/home-normal.png",
+				"selectedIconPath": "static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/recipes/recipes",
+				"text": "食谱",
+				"iconPath": "static/tabbar/recipes-normal.png",
+				"selectedIconPath": "static/tabbar/recipes-active.png"
+			},
+			{
+				"pagePath": "pages/menu/menu",
+				"text": "菜单",
+				"iconPath": "static/tabbar/menu-normal.png",
+				"selectedIconPath": "static/tabbar/menu-active.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的",
+				"iconPath": "static/tabbar/profile-normal.png",
+				"selectedIconPath": "static/tabbar/profile-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

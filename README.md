@@ -2,6 +2,14 @@
 
 这是 HBuilderX 创建的 uni-app Vue 3 项目。食谱和推荐规则内置在小程序包中；宝宝信息、收藏、已尝试记录和自定义菜单保存在当前设备的微信本地存储中。运行时不依赖服务器、CloudBase 或网络请求。
 
+## 页面预览
+
+以下截图来自微信开发者工具模拟器。
+
+| 今日推荐 | 食谱列表 | 食谱详情 |
+| :---: | :---: | :---: |
+| <img src="docs/screenshots/home.png" alt="今日推荐页面" width="240"> | <img src="docs/screenshots/recipes.png" alt="食谱列表页面" width="240"> | <img src="docs/screenshots/detail.png" alt="食谱详情页面" width="240"> |
+
 ## 在微信开发者工具中运行
 
 1. 安装 HBuilderX 和微信开发者工具。
